@@ -1,15 +1,2 @@
-def backtracing(result):
-    path.append(1)
-    result.append(path)
-    path.pop()
-
-path = []
-
-def combine():
-    
-    result = []
-    
-    backtracing(result)
-    print(result)
-    
-combine()
+result = map(lambda x: (ord(x) - ord('a'), x), 'dasd')
+print(list(result))
